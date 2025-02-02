@@ -6,7 +6,7 @@ function selectOption(option) {
     if (option === 'yes') {
         // Flash rainbow colors
         flashRainbowColors(function() {
-        document.getElementById('question').innerText = 'WOOO! I LOVE YOU BUBBA! SEE YOU ON 14TH FEB <3 MWAHHHHHH'; // Hide the question
+        document.getElementById('question').innerText = 'WOOO! I LOVE YOU BUBBA! See you on the 14th of Feb <3 MWAHHHHHH'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
         });
     } else if (option === 'no') {
